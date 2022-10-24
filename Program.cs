@@ -13,7 +13,7 @@ double [,] RandomNumbersArray(int a, int b)
     {
         for (int j = 0; j < b; j++)
         {
-        Num [i,j] = Math.Round(new Random().NextDouble()*(9-(1))+(1), 0); // Случайное целое число double от -10 до 10
+        Num [i,j] = Math.Round(new Random().NextDouble()*(9-(1))+(1), 0); // Случайное целое число double от 0 до 9 вкл-но.
         }   
     }
     return Num;
