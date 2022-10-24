@@ -61,14 +61,6 @@ System.Console.WriteLine();
 System.Console.WriteLine("Среднее арифметическое всех элементов каждого столбца:");
 Console.WriteLine(String.Join("; ", bbb));
 System.Console.WriteLine();
-/* int x = bbb.Length;
-for (int i = 0; i < x; i++)
-    {
-    System.Console.Write(bbb[i] + " ");
-    System.Console.WriteLine();
-    }
-System.Console.WriteLine();
-System.Console.WriteLine();*/
 }
 
 
