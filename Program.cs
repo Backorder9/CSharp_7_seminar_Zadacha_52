@@ -47,7 +47,7 @@ System.Console.WriteLine();
 for (int i = 0; i < x; i++)
     {
         for (int j = 0; j < y; j++)
-            System.Console.Write(aaa[i,j] + " ");
+            System.Console.Write("{0}\t", aaa[i, j]);
         System.Console.WriteLine("");
     }
 System.Console.WriteLine();
